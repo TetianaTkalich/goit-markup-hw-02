@@ -1,0 +1,179 @@
+/* Головний колір білий #EEEEEE */
+/* Головний колір чорний #2F303A */
+/* Синій колір #2196F3 */
+body {
+    font-family: Roboto;
+}
+a {text-decoration: none;}
+ul {list-style: none;}
+
+/* page-header */
+.page-header {
+    background-color: #FFFFFF;
+}
+
+/*Webstudio */
+.web {
+color: #2196F3;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.2;
+letter-spacing: 0.03em;
+}
+
+.logo {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.2;
+letter-spacing: 0.03em;
+color: #000000;
+}
+/* Site-nav */
+.studio, .mail {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.1;
+letter-spacing: 0.02em;
+color: #2196F3;
+}
+
+.portfolio, .contacts, .tel {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.1;
+letter-spacing: 0.02em;
+color: #212121;
+}
+
+.studio-second {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: #212121;
+    
+}
+
+.portfolio-second{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.1;
+letter-spacing: 0.02em;
+color: #2196F3;
+
+}
+
+/*  section-tittle*/
+.section-tittle {
+background-color: #2F303A;
+}
+.titlle {
+font-weight: 900;
+font-size: 44px;
+line-height: 1.4;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.button {
+background-color: #2196F3;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.9;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+}
+
+/* Переваги */
+
+.tittle-medium, .name, .services {
+font-weight: 700;
+font-size: 14px;
+line-height: 1.2;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
+
+.text, .position, .types {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+color: #757575;
+    }
+
+    /* Чим займаємось */
+    .blok-galery {
+        background-color: #F5F4FA;
+    }
+
+    .galery {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.2;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+    }
+
+    /* Staff */
+    .staff {
+    background-color: #F5F4FA ;
+    }
+
+.titlle-staff {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+
+}
+/* Footer */
+
+.footer {
+    background-color:  #2F303A;
+}  
+.contacts-footer {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.mail-footer, .tel-footer {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.7x;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+
+/* Button portfolio */
+.all {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.6;
+text-align: center;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+background-color: #2196F3;
+}
+.button-portfolio {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.6;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
