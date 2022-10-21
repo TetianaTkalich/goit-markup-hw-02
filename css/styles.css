@@ -22,7 +22,7 @@ ul {list-style: none;}
 /*Webstudio */
 .web {
 color: #2196F3;
-font-family: 'Raleway';
+font-family: 'Raleway' sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 26px;
@@ -49,18 +49,19 @@ letter-spacing: 0.02em;
 color: var(--accent-color)
 }
 
-.mail:hover {
-    color: var(--title-text-color)
-}
-.mail:focus {
-    color: var(--title-text-color)
-}
-.tel:hover {
+/* Mail-Tel header and footer  */
+
+.adress-header, .mail-footer, .tel-footer {
+    font-size: 14px;
+    line-height: 1.7x;
+    letter-spacing: 0.03em;
+    color: #757575;
+  }
+
+.mail-tel:hover, :focus {
     color: var(--accent-color);
 }
-.tel:focus {
-    color: var(--accent-color);
-}    
+
 
 .portfolio, .contacts, .tel {
 font-weight: 500;
@@ -130,8 +131,7 @@ color: #757575;
         background-color: #F5F4FA;
     }
 
-    .gallery {
-        font-weight: 700;
+    .title-gallery-staff {
         font-size: 36px;
         line-height: 1.2;
         text-align: center;
@@ -191,3 +191,4 @@ line-height: 1.6;
 text-align: center;
 color: var(--title-text-color)
 }
+
